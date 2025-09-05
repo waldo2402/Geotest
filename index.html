@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Geotest - Dashboard</title>
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Tailwind Custom Config -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'geotest-orange': '#f39c12',
+            'geotest-orange-dark': '#d48806',
+            'geotest-yellow': '#f1c40f',
+            'geotest-dark': '#2c3e50',
+            'geotest-dark-light': '#34495e',
+            'geotest-gray': '#7f8c8d',
+            'geotest-gray-light': '#6c757d',
+            'geotest-bg-card': '#fef9f0',
+            'status-active-bg': '#d4edda',
+            'status-active-text': '#155724',
+            'status-active-border': '#c3e6cb',
+            'status-pending-bg': '#fff3cd',
+            'status-pending-text': '#856404',
+            'status-pending-border': '#ffeeba',
+            'status-completed-bg': '#cce7ff',
+            'status-completed-text': '#004085',
+            'status-completed-border': '#b8daff',
+          },
+          boxShadow: {
+            'orange-btn': '0 6px 15px rgba(243,156,18,0.4)',
+            'orange-btn-hover': '0 10px 25px rgba(243,156,18,0.5)',
+            'orange-md': '0 10px 30px rgba(243,156,18,0.3)',
+            'orange-lg': '0 20px 50px rgba(243,156,18,0.5)',
+            'green-md': '0 6px 20px rgba(46,204,113,0.15)',
+            'green-lg': '0 12px 35px rgba(46,204,113,0.3)',
+          }
+        }
+      }
+    }
+  </script>
+  
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  </style>
+  
+  <!-- External Libraries (for window object access) -->
+  <script src="https://unpkg.com/recharts/umd/Recharts.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" defer></script>
+  
+<link rel="stylesheet" href="/index.css">
+  <script type="importmap">
+  {
+    "imports": {
+      "react": "https://aistudiocdn.com/react@^19.1.1",
+      "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+      "react/": "https://aistudiocdn.com/react@^19.1.1/",
+      "recharts": "https://aistudiocdn.com/recharts@^3.1.2"
+    }
+  }
+  </script>
+  <script type="module" crossorigin src="/Geotest/assets/index-BgJ9xTdB.js"></script>
+</head>
+<body class="bg-gradient-to-br from-[#667eea] to-[#764ba2]">
+  <div id="root"></div>
+
+  <!-- Import Map for ES Modules -->
+
+  
+  <!-- App Entry Point -->
+</body>
+</html>
